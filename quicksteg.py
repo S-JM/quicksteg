@@ -1,6 +1,6 @@
 import os
 
-// Check dependencies
+# Check dependencies
 dependencies = ['steghide', 'foremost', 'exiftool', 'strings', 'binwalk']
 for i in dependencies:
     if not os.system('which ' + i):
