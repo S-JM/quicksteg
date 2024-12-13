@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='quicksteg',
-      version='0.0.3',
+      version='0.0.4',
       description='Quick steganography tools',
       license='GPLv3',
       classifiers=[
