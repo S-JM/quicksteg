@@ -12,7 +12,6 @@ setup(name='quicksteg',
       author='S-JM',
       url='https://github.com/s-jm/quicksteg/',
       packages=['quicksteg'],
-      package_dir={"":""},
       entry_points= {
         'console_scripts': ['quicksteg=quicksteg.quicksteg:main']
       }
