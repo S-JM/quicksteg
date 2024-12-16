@@ -17,7 +17,7 @@ parser.add_argument('-a', '--all', action='store_true')
 args = parser.parse_args()
 
 file = args.file
-filename = str()
+filename = os.path.basename(file)
 now = datetime.datetime.now()
 outstr = now.strftime('%Y%m%d%H%M%S') + '_' + filename + '.out'
 
